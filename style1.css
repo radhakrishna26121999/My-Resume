@@ -1,17 +1,17 @@
-button:hover {
-  background-color: orange; }
+html {
+  scroll-behavior: smooth; }
 
 a:hover {
   font-weight: bold; }
 
-#section1, #section2, #section3, #section9, #section9 input[type=text], #section9 button, .class1, .class2 {
+#section1, #section2, #section3, #section9, input[type=text], .class1, .class2 {
   font-family: georgia, sans-serif; }
 
 #section1 h1, #section2 h1, #section3 h1, #section9 h1, .class1 h1, .class2 h1 {
   font-size: 35px;
   text-align: center; }
 
-#section1, #section2, #section3, #section9, #section9 input[type=text], #section9 button, .class1, .class2 {
+#section1, #section2, #section3, #section9, input[type=text], .class1, .class2 {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
@@ -24,39 +24,35 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
   width: 50%; }
 
 #section1 {
-  background-color: #ff7300;
-  color: white; }
+  background-color: #ededed;
+  color: black; }
   #section1 h4 {
     font-size: 20px; }
 
 #section2, #section3 {
-  background-color: #0275d8;
-  color: white; }
+  background-color: #ededed;
+  color: black; }
   #section2 a, #section3 a {
-    color: white; }
-  #section2 table, #section2 td, #section2 th, #section3 table, #section3 td, #section3 th {
-    font-size: 25px;
-    text-align: center;
-    padding: 40px;
-    margin: 40px;
-    border: 1px solid black;
-    border-collapse: collapse; }
+    color: black; }
 
-#section9 input[type=text], #section9 button {
+#section9 {
+  margin-bottom: 40px; }
+
+input[type=text] {
   background-color: white;
-  border: 5px solid black;
-  border-radius: 0px;
+  border: 5px solid #cfcfcf;
   font-size: 20px;
   text-align: center; }
 
 .class1 {
-  background-color: black;
-  color: white; }
+  background-color: #ededed;
+  color: black; }
 
 .class2 {
-  background-color: #ffc800; }
+  background-color: #ededed; }
 
 /*# sourceMappingURL=style1.css.map */

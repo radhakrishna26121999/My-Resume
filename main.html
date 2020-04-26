@@ -2,13 +2,14 @@
 <html>
 <title> MY RESUME </title>
 <link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <body>
 
 <section id="section1">
   <h1> RADHAKRISHNA N </h1>
   <h4> DOB: 26th December 1999 </h4>
   <h4> <a href="https://www.linkedin.com/in/radhakrishna26/">linkedin profile</a>
-    narayananradhakrishna@gmail.com | 9884901349 </h4>
+    narayananradhakrishna@gmail.com</h4>
   <h1> PROFILE </h1>
   <h4>Fresher - Seeking an entry level opportunity with an esteemed
     organization where I can utilize my skills and enhance learning
@@ -31,23 +32,26 @@
 
 <section id="section3">
   <h1> EDUCATION </h1>
-  <table>
-    <tr>
-      <th> QUALIFICATION/PARTICULARS </th>
-      <th> AISSCE Class 12 - The Hindu Sr. Sec. School </th>
-      <th> B.Tech. Mechanical Engineering - VIT University, Chennai campus </th>
-    </tr>
-    <tr>
-      <th> Year of passing </th>
-      <td> 2017 </td>
-      <td> 2021 (anticipated) </td>
-    </tr>
-    <tr>
-      <th> Score </th>
-      <td> 89.6% </td>
-      <td> 8.26 CGPA </td>
-    </tr>
-  </table>
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <tr>
+        <th> </th>
+        <th> Year of passing </th>
+        <th> Score </th>
+      </tr>
+      <tr>
+        <th> The Hindu Sr. Sec. School </th>
+        <td> 2017 </td>
+        <td> 2021 (anticipated) </td>
+      </tr>
+      <tr>
+        <th> Vellore Institute of Technology, Chennai </th>
+        <td> 89.6% </td>
+        <td> 8.26 CGPA </td>
+      </tr>
+    </table>
+  </div>
+
 </section>
 
 <section id="section4" class="class1">
@@ -133,7 +137,7 @@
   <h1>
   CONTACT ME <form> <input type="text" placeholder="NAME"
   name="name"> <input type="text" placeholder="MAIL-ID"
-  name="mailid"> <button> SUBMIT! </button> </form>
+  name="mailid"> <button type="button" class="btn btn-primary">SUBMIT!</button> </form>
   </h1>
 </section>
 
