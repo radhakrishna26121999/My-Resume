@@ -4,14 +4,14 @@ html {
 a:hover {
   font-weight: bold; }
 
-#section1, #section2, #section3, #section9, input[type=text], .class1, .class2 {
+#section1, #section2, #section3, #section9, .class1, .class2 {
   font-family: georgia, sans-serif; }
 
-#section1 h1, #section2 h1, #section3 h1, #section9 h1, .class1 h1, .class2 h1 {
+#section1 h1, #section2 h1, #section3 h1, .class1 h1, .class2 h1, #section1 #section9, #section2 #section9, #section3 #section9, .class1 #section9, .class2 #section9 {
   font-size: 35px;
   text-align: center; }
 
-#section1, #section2, #section3, #section9, input[type=text], .class1, .class2 {
+#section1, #section2, #section3, #section9, .class1, .class2 {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
@@ -40,12 +40,7 @@ img {
     color: black; }
 
 #section9 {
-  margin-bottom: 40px; }
-
-input[type=text] {
-  background-color: white;
-  border: 5px solid #cfcfcf;
-  font-size: 20px;
+  margin-bottom: 40px;
   text-align: center; }
 
 .class1 {

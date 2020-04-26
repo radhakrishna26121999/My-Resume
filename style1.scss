@@ -61,18 +61,11 @@ img {
   }
 }
 #section9{
-  @extend %h1;
-  @extend %section;
   @extend %textfonts;
+  @extend %section;
+  @extend h1;
   margin-bottom: 40px;
-}
-  input[type=text]{
-      @extend %section;
-      @extend %textfonts;
-       background-color: white;
-       border: 5px solid #cfcfcf;
-       font-size: 20px;
-       text-align: center;
+  text-align: center;
 }
 
 .class1{
