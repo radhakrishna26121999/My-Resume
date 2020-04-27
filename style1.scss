@@ -37,7 +37,9 @@ img {
   margin-bottom: 100px;
   width: 50%;
 }
-
+form{
+  margin: 20px;
+}
 #section1{
   @extend %textfonts;
   @extend %section;
